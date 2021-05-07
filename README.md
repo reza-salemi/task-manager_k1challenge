@@ -1,1 +1,0 @@
-# task-manager_k1challenge

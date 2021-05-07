@@ -1,0 +1,54 @@
+body{
+    direction: rtl;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 16px;
+
+}
+label{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #797979;
+}
+.form-control{
+    display: block;
+    color: #797979;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.btn{
+    background-color: #58c9f3;
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+}
+table{
+    border-color: gray;
+    width: 600px;
+    border-spacing: 0;
+}
+table thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+table tbody>tr>td{
+    padding: 8px;
+    height: 30px;
+    line-height: 1.4;
+    vertical-align: middle;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
